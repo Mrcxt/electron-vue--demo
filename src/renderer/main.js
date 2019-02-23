@@ -6,7 +6,7 @@ import router from "./router";
 import store from "./store";
 
 /* css */
-import "normalize.css";
+import "./style/normalize.css";
 
 if (!process.env.IS_WEB) Vue.use(require("vue-electron"));
 Vue.axios = Vue.prototype.$axios = axios;

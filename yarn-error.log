@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js add normazile.css
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js add normolize.css
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/ImageMagick/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.npm.taobao.org/normazile.css: Not found
+  Error: https://registry.npm.taobao.org/normolize.css: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:63139:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.12.1/libexec/lib/cli.js:124547:22)
       at emitTwo (events.js:126:13)
@@ -83,6 +83,7 @@ npm manifest:
       "axios": "^0.18.0",
       "less": "^3.9.0",
       "less-loader": "^4.1.0",
+      "normalize.css": "^8.0.1",
       "vue": "^2.5.16",
       "vue-electron": "^1.0.6",
       "vue-router": "^3.0.1",
@@ -5790,6 +5791,11 @@ Lockfile:
       prepend-http "^1.0.0"
       query-string "^4.1.0"
       sort-keys "^1.0.0"
+  
+  normalize.css@^8.0.1:
+    version "8.0.1"
+    resolved "http://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+    integrity sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
   
   npm-bundled@^1.0.1:
     version "1.0.6"
