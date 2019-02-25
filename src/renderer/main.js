@@ -1,5 +1,5 @@
 import Vue from "vue";
-import ajax from './api/config/request'
+import ajax from "./api/config/request";
 
 import App from "./App";
 import router from "./router";
@@ -10,17 +10,15 @@ import "./style/normalize.css";
 
 /* install */
 
-Vue.prototype.$ajax = ajax;
-
 if (!process.env.IS_WEB) Vue.use(require("vue-electron"));
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
-    components: {
-        App
-    },
-    router,
-    store,
-    template: "<App/>"
+  components: {
+    App
+  },
+  router,
+  store,
+  template: "<App/>"
 }).$mount("#app");
