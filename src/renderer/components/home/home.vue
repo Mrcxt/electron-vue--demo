@@ -1,15 +1,19 @@
 <template>
   <div class="home">
-    <h1><span style="color:#42b983">electron</span> - vue</h1>
+    <h1><span style="color:#42b983">虾哔哔</span>FM</h1>
+    <div class="fm">
+
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {}
+};
 </script>
 
 <style lang="less">
 .home {
-  text-align: center;
 }
 </style>
